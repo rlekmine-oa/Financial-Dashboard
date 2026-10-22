@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Fichiers générés
+/rapport_patrimoine.html
+cache_*.json
+cache_*.json.tmp
+
+# Données personnelles : jamais à la racine du dépôt (seul data/demo/ est versionné)
+/*.xlsx
+/*.xlsm
+/*.xls
+/*.csv
